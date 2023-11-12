@@ -1,0 +1,25 @@
+.main-servicios{
+    padding: 10px;
+    background-image: url(./img/fondo\ servicios.jpg);
+    background-size: cover;
+
+}
+.servicios-contenedor {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(135deg, #6ea2d6 0%, #868b94 100%);
+    h3{    color: rgb(19, 19, 194);
+        text-align: center;}
+
+}
+.servicios-contenedor p{
+        padding: 5px;
+
+}

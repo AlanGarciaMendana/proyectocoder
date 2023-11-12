@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles-sass.css">
     <title>Airmax SRL - Preguntas Frecuentes</title>
 </head>
 
@@ -35,8 +34,8 @@
             </div>
         </nav>
     </header>
-    <main class="servicios-main">
-        <nav class="calefaccion-main container" id="calefaccion">
+    <main class="main-servicios">
+        <nav class="servicios-contenedor" id="calefaccion">
             <p>
             <h3>Instalaciones de Sistemas de Calefaccion</h3><br>
             Sistemas centrales de calefacción por conductos con calefactores a gas, piso o losa radiante, radiadores,
@@ -45,7 +44,7 @@
             industriales.<br>Reparación integral de equipos in situ o en taller.<br> Service Pos Venta, Mantenimiento
             Planificado y Reparaciones.<br>Participación en la puesta en marcha y supervisión de ensayos.</p>
         </nav>
-        <nav class="aire-acondicionado-main container" id="Aire-acondicionado">
+        <nav class="servicios-contenedor" id="Aire-acondicionado">
             <p>
             <h3>Asesoramiento, venta e instalación de Equipos Individuales</h3>
             Selección y asesoramiento del equipo adecuado, a cargo del personal de ventas altamente capacitado.<br>
@@ -53,7 +52,7 @@
             <br>Garantia de los trabajos realizados y Excelencia en el terminado y la limpieza de los trabajos.
             </p>
         </nav>
-        <nav class="Service-main container" id="service">
+        <nav class="servicios-contenedor" id="service">
             <p>
             <h3>Servicio post-venta</h3>
             Especificaciones de compra para componentes.
@@ -69,7 +68,7 @@
             Alquiler temporario de Equipos y Sistemas.<br>
             </p>
         </nav>
-        <nav class="Equipos-centrales-main container" id="centrales">
+        <nav class="servicios-contenedor" id="centrales">
             <p>
             <h3>Equipamiento comercial</h3>
             Sistemas de ventilación mecánica - inyección, extracción, presurización de cajas de escalera, silos,
@@ -85,42 +84,41 @@
             </p>
         </nav>
     </main>
-    <footer class="footer-servicios" id="contacto">
-        <section class="contacto">
-            <iframe class="mapa"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13139.106787570863!2d-58.4777752!3d-34.5845164!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb66cdb85dc05%3A0x219e9d85b929e94e!2sAirmax%20S.R.L.!5e0!3m2!1ses!2sar!4v1694539971422!5m2!1ses!2sar"
-                width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-            <ul class="datos-contacto">
-                <li>
-                    <i class="fa-solid fa-phone"></i>
-                    <p>administracion@airmax-srl.com.ar <br> (54)11 6841 6325</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>Avalos 1371, CABA <br> Lunes a Viernes de 09:00 a 18:00hs</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-people-group"></i>
-                    <a href="../pages/trabaja-con-nosotros.html" class="trabaja-con-nosotros">Trabaja con Nosotros</a>
-                </li>
-            </ul>
+        <footer id="contacto">
+            <section class="contacto-container">
+                <iframe class="contacto-container-datos-mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13139.106787570863!2d-58.4777752!3d-34.5845164!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb66cdb85dc05%3A0x219e9d85b929e94e!2sAirmax%20S.R.L.!5e0!3m2!1ses!2sar!4v1694539971422!5m2!1ses!2sar"
+                    width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <ul class="contacto-container-datos">
+                    <li class="contacto-container-datos-items">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>administracion@airmax-srl.com.ar <br> (54)11 6841 6325</p>
+                    </li>
+                    <li class="contacto-container-datos-items">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Avalos 1371, CABA <br> Lunes a Viernes de 09:00 a 18:00hs</p>
+                    </li>
+                    <li class="contacto-container-datos-items">
+                        <i class="fa-solid fa-people-group"></i>
+                        <a href="../pages/trabaja-con-nosotros.html" class="trabaja-con-nosotros">Trabaja con Nosotros</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="redes-sociales">
+                <a class="redes-sociales-links fb-link" href="https://www.facebook.com/airmaxsrl/?locale=es_LA" target="_blank"><i
+                        class="fa-brands fa-facebook boton-redes"></i>
+                </a>
+                <a class="redes-sociales-links wa-link" href="https://wa.me/1166250443" target="_blank"><i class="fa-brands fa-whatsapp boton-redes"></i>
+                </a>
+                <a class="redes-sociales-links ig-link" href="https://www.instagram.com/p/CU44vRzlzvB/" target="_blank"><i class="fa-brands fa-instagram"></i>
+                </a>
+            </section>
+        </footer>
+        <section class="fondo-container">
+            <p>Copyright by <a href="www.debala.com.ar" target="_blank"><span style="color:orange;font-weight: bold;">DEBALA</span></a> </p>
         </section>
-        <section class="redes-sociales">
-            <a href="https://www.facebook.com/airmaxsrl/?locale=es_LA" target="_blank"><i
-                    class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="https://wa.me/1166250443" target="_blank"><i class="fa-brands fa-whatsapp"></i>
-            </a>
-            <a href="https://www.instagram.com/p/CU44vRzlzvB/" target="_blank"><i class="fa-brands fa-instagram"></i>
-            </a>
-        </section>
-    </footer>
-    <section class="fondo">
-        <p>Copyright by Debala </p>
-    </section>
-
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
