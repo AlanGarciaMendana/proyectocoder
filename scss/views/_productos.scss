@@ -1,0 +1,26 @@
+.lista-contenedor{
+    display: flex;
+    padding: 5px;
+}
+.contenido-tabladeproductos{
+    padding: 5px;
+    justify-content: right;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    display: inline-block;
+    position: relative;
+    top: -1100px;
+    left: 410px;
+    th{
+        font-size: 15px;
+        padding: 5px;
+    }
+
+}
+.banner-left{
+    width: fit-content;
+    padding: 5px;
+    display: flex;
+}

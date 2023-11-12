@@ -1,0 +1,9 @@
+.contenedor-formulario{
+    @include flex;
+    background-image: url(../../img/fondo\ servicios.jpg);
+    background-size: cover;
+}
+form{
+    text-align: center;
+    justify-content: center;
+}
