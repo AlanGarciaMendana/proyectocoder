@@ -7,7 +7,12 @@
     height: fit-content;
     padding: 100px 0;
 }
-
+.carousel-caption{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    max-width: 600px;
+}
 /* Seccion de SERVICIOS */
 .contenedor-expertos-img {
     gap: 10px;
@@ -15,6 +20,7 @@
     list-style: none;
     margin: auto;
     position: relative;
+    cursor: pointer;
 
 }
 
@@ -37,7 +43,9 @@
 
 .contenedor-expertos-img img {
     box-shadow: 1px 1px 50px black;
+
 }
+
 
 /* Seccion de AIRMAX EN NUMEROS  */
 .numeros-contenedor {

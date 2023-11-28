@@ -5,6 +5,8 @@
 
 }
 .servicios-contenedor {
+    margin: auto;
+    width: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
     flex-wrap: wrap;
@@ -12,6 +14,7 @@
     border-radius: 20px;
     justify-content: center;
     text-align: justify;
+    padding: 10px;
     color: white;
     font-weight: bold;
     background-image: linear-gradient(135deg, #6ea2d6 0%, #868b94 100%);
@@ -20,6 +23,6 @@
 
 }
 .servicios-contenedor p{
-        padding: 5px;
+        padding: 10px;
 
 }
