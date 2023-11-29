@@ -31,7 +31,7 @@ a:hover {
 
 /* Comienzo de Header*/
 header {
-  font-size: 2rem;
+  font-size: 20px;
   height: fit-content;
   justify-content: center;
   text-align: center;
@@ -48,6 +48,10 @@ header img {
 .navbar {
   justify-content: center;
   text-align: center;
+}
+
+.navbar-nav a:hover {
+  color: green;
 }
 
 .contenedor-navegacion {
@@ -113,12 +117,15 @@ header img {
   color: rgb(157, 76, 1);
 }
 
-.contacto i {
+.contacto-container-datos-items i {
   display: flex;
   font-size: 30px;
   text-align: center;
   margin: 5px 5px;
-  color: black;
+  color: rgb(0, 0, 0);
+}
+.contacto-container-datos-items p {
+  text-align: justify;
 }
 
 .fondo-container {
@@ -149,6 +156,13 @@ iframe {
   padding: 100px 0;
 }
 
+.carousel-caption {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  max-width: 600px;
+}
+
 /* Seccion de SERVICIOS */
 .contenedor-expertos-img {
   gap: 10px;
@@ -159,6 +173,7 @@ iframe {
   list-style: none;
   margin: auto;
   position: relative;
+  cursor: pointer;
 }
 
 .titulos-img {
@@ -377,10 +392,11 @@ iframe {
   flex-wrap: wrap;
   color: rgb(41, 181, 206);
   background-image: url(./img/historia-background.png);
-  width: 63%;
+  width: 100%;
   text-align: right;
   border-radius: 20px;
   padding: 100px 10px;
+  max-width: 1000px;
 }
 .historia h3 {
   color: rgb(14, 76, 211);
@@ -473,6 +489,8 @@ iframe {
 }
 
 .servicios-contenedor {
+  margin: auto;
+  width: 50%;
   margin-top: 10px;
   margin-bottom: 10px;
   flex-wrap: wrap;
@@ -480,6 +498,7 @@ iframe {
   border-radius: 20px;
   justify-content: center;
   text-align: justify;
+  padding: 10px;
   color: white;
   font-weight: bold;
   background-image: linear-gradient(135deg, #6ea2d6 0%, #868b94 100%);
@@ -490,7 +509,7 @@ iframe {
 }
 
 .servicios-contenedor p {
-  padding: 5px;
+  padding: 10px;
 }
 
 .contenedor-formulario {
@@ -525,32 +544,73 @@ form {
   margin: auto;
 }
 
-.lista-contenedor {
+.Lista-contenedor {
   display: flex;
-  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
-.contenido-tabladeproductos {
+.contenedor-producto {
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  box-shadow: 2px 2px 5px black;
   padding: 5px;
-  justify-content: right;
+  justify-content: center;
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 10px;
-  display: inline-block;
-  position: relative;
-  top: -1100px;
-  left: 410px;
-}
-.contenido-tabladeproductos th {
-  font-size: 15px;
-  padding: 5px;
 }
 
-.banner-left {
-  width: fit-content;
-  padding: 5px;
-  display: flex;
+.imgpro {
+  height: 200px;
+  width: auto;
+  background-size: cover;
+  border-radius: 20px;
+  transition: 1s ease;
+}
+
+.img-carrier {
+  background-image: url(../../img/AA-CARRIER.png);
+}
+
+.img-mideainv {
+  background-image: url(../../img/AA-MIDEA.png);
+}
+
+.c2250:hover {
+  background-image: url(../../img/equipocarrier.png);
+}
+
+.c3000:hover {
+  background-image: url(../../img/equipocarrier.png);
+}
+
+.c4500:hover {
+  background-image: url(../../img/equipocarrier.png);
+}
+
+.c5500:hover {
+  background-image: url(../../img/equipocarrier.png);
+}
+
+.m2200:hover {
+  background-image: url(../../img/equipomidea.jpeg);
+}
+
+.m3000:hover {
+  background-image: url(../../img/equipomidea.jpeg);
+}
+
+.m4500:hover {
+  background-image: url(../../img/equipomidea.jpeg);
+}
+
+.m5500:hover {
+  background-image: url(../../img/equipomidea.jpeg);
 }
 
 /*# sourceMappingURL=styles-sass.css.map */

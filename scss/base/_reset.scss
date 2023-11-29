@@ -25,7 +25,7 @@ a:hover {
 
 /* Comienzo de Header*/
 header {
-    font-size: $font-xl;
+    font-size: 20px;
     height: fit-content;
     justify-content: center;
     text-align: center;
@@ -44,7 +44,9 @@ header {
     justify-content: center;
     text-align: center;
 }
-
+.navbar-nav a:hover{
+    color:$font-secondary;
+}
 
 .contenedor-navegacion {
     display: flex;
@@ -111,12 +113,17 @@ header {
     color: rgb(157, 76, 1);
 }
 
-.contacto i {
+.contacto-container-datos-items {
+    i {
     display: flex;
     font-size: 30px;
     text-align: center;
     margin: 5px 5px;
-    color: black;
+    color: rgb(0, 0, 0);
+}
+p{
+    text-align: justify;
+}
 }
 
 .fondo-container {

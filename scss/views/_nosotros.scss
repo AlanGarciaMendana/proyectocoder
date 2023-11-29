@@ -29,10 +29,11 @@ text-align: center;
         flex-wrap: wrap;
         color: rgb(41, 181, 206);
         background-image: url(./img/historia-background.png);
-        width: 63%;
+        width: 100%;
         text-align: right;
         border-radius: 20px;
         padding: 100px 10px;
+        max-width: 1000px;
     }
     h3 {
         color: rgb(14, 76, 211);
