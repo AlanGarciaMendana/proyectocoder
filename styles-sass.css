@@ -544,32 +544,73 @@ form {
   margin: auto;
 }
 
-.lista-contenedor {
+.Lista-contenedor {
   display: flex;
-  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
-.contenido-tabladeproductos {
+.contenedor-producto {
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  box-shadow: 2px 2px 5px black;
   padding: 5px;
-  justify-content: right;
+  justify-content: center;
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 10px;
-  display: inline-block;
-  position: relative;
-  top: -1100px;
-  left: 410px;
-}
-.contenido-tabladeproductos th {
-  font-size: 15px;
-  padding: 5px;
 }
 
-.banner-left {
-  width: fit-content;
-  padding: 5px;
-  display: flex;
+.imgpro {
+  height: 200px;
+  width: auto;
+  background-size: cover;
+  border-radius: 20px;
+  transition: 1s ease;
+}
+
+.img-carrier {
+  background-image: url(../../img/AA-CARRIER.png);
+}
+
+.img-mideainv {
+  background-image: url(../../img/AA-MIDEA.png);
+}
+
+.c2250:hover {
+  background-image: url(../../img/equipocarrier.png);
+}
+
+.c3000:hover {
+  background-image: url(../../img/equipocarrier.png);
+}
+
+.c4500:hover {
+  background-image: url(../../img/equipocarrier.png);
+}
+
+.c5500:hover {
+  background-image: url(../../img/equipocarrier.png);
+}
+
+.m2200:hover {
+  background-image: url(../../img/equipomidea.jpeg);
+}
+
+.m3000:hover {
+  background-image: url(../../img/equipomidea.jpeg);
+}
+
+.m4500:hover {
+  background-image: url(../../img/equipomidea.jpeg);
+}
+
+.m5500:hover {
+  background-image: url(../../img/equipomidea.jpeg);
 }
 
 /*# sourceMappingURL=styles-sass.css.map */
