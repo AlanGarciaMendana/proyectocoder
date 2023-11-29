@@ -1,11 +1,14 @@
 .Lista-contenedor{
-@include flex;
-gap: 15px;
-flex-wrap: wrap;
+    margin: auto;
+    @include flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 90%;
 }
 .contenedor-producto{
     border-radius: 20px;
     width: 300px;
+   
     height: 400px;
     box-shadow: 2px 2px 5px black;
     padding: 5px;
