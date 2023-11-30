@@ -29,6 +29,7 @@ text-align: center;
         flex-wrap: wrap;
         color: rgb(41, 181, 206);
         background-image: url(./img/historia-background.png);
+        background-size: cover;
         width: 100%;
         text-align: right;
         border-radius: 20px;
@@ -60,6 +61,7 @@ text-align: center;
     }
     h2 {
         background-image: url(./img/cliente..png);
+        background-size: cover;
         justify-content: center;
         border-radius: 20px;
         color: white;
@@ -84,6 +86,7 @@ text-align: center;
 &-art{
     h2 {
         background-image: url(./img/prensa.png);
+        background-size: cover;
         padding-top: 100px;
         border-radius: 20px;
         color: white;
